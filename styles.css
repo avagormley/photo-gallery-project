@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+}
+h1 {
+  color: #DC143C;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+.image {
+  margin: 10px;
+  padding: 10px;
+  height: 225px;
+  width: 225px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 400px) {image {
+  width: 100%}
+}
+}
+
+@media screen and (max-width: 200px) {image {
+  width: 100%
+  }
+}
